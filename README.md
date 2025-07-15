@@ -3,11 +3,12 @@
 A responsive book store website built with HTML, CSS, and JavaScript that interacts with a remote bookstore API.
 
 ## Project Structure
+```
 book-store/
 ├── index.html # Main HTML file
 ├── style.css # Stylesheet
 └── index.js # Main JavaScript functionality
-
+```
 
 ## Features
 
