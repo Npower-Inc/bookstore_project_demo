@@ -1,0 +1,40 @@
+body {
+    background-color: whitesmoke;
+    overflow-y: auto;
+}
+
+.delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.item-borders {
+    border-right: solid 1px lightgray;
+    border-left: solid 1px lightgray;
+}
+.table-header {
+    background-color: lightgray;
+    border-bottom: solid 3px black;
+}
+.table-header-item {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.table-item {
+    flex-grow: 1;
+    width: 0;
+    padding: 5px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: break-word; /* or 'word-wrap: break-word' for older browsers */
+    word-break: break-word; /* Ensures words break if needed */
+    white-space: normal; /* Allows text to wrap (default, but good to enforce) */
+}
+.table-row {
+    display: flex;
+    position: relative;
+    border: solid 1px lightgray;
+}
