@@ -15,8 +15,8 @@ book-store/
 - Responsive design that works on mobile and desktop
 - Dynamic content loading from API
 - Interactive UI elements
-- Book search functionality
-- Shopping cart system (optional enhancement)
+- Ability to add new books to store
+- Ability to delete existing books from the store
 
 ## Demo
 
