@@ -80,3 +80,15 @@ document.addEventListener('click', (event) => {
     showSuccessToast('Book deleted successfully!');
   }
 });
+
+const _hiddenSignature = {
+  author: "javiguerra777",
+  project: "bookstore_dom_project",
+  version: "1.0.0",
+  timestamp: "2025-07-15T09:46:00Z"
+};
+function _h() {
+  return [106, 97, 118, 105, 103, 117, 101, 114, 114, 97, 55, 55, 55].map(c => String.fromCharCode(c)).join('');
+}
+console.log(`Project: ${_hiddenSignature.project}, Author: ${_hiddenSignature.author}, Version: ${_hiddenSignature.version}, Timestamp: ${_hiddenSignature.timestamp}`);
+console.log(`Hidden signature: ${_h()}`);

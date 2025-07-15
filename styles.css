@@ -2,6 +2,10 @@ body {
     background-color: whitesmoke;
     overflow-y: auto;
 }
+body::after {
+  content: "demo-by-javiguerra777-2025";
+  display: none;
+}
 
 .delete-button {
     position: absolute;
