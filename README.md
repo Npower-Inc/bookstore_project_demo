@@ -6,8 +6,8 @@ A responsive book store website built with HTML, CSS, and JavaScript that intera
 ```
 book-store/
 ├── index.html # Main HTML file
-├── style.css # Stylesheet
-└── index.js # Main JavaScript functionality
+├── styles.css # Stylesheet
+└── app.js # Main JavaScript functionality
 ```
 
 ## Features
